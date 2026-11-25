@@ -1,0 +1,35 @@
+{
+  "latent_shape": [
+    4,
+    64,
+    64
+  ],
+  "denoising_steps": 50,
+  "preliminary_updates": 10,
+  "generation_guidance": 7.5,
+  "inversion_guidance": 1,
+  "local_window": 15,
+  "texture_quantile": 0.95,
+  "sigmoid_coefficient": 5,
+  "strength_min": 1.6,
+  "strength_max": 2.2,
+  "sigma_M": 0.5,
+  "sigma_w": 0.7,
+  "frequency_radius": 10,
+  "key_seed": 999999,
+  "calibration_negatives": 1000,
+  "test_pairs": 1000,
+  "calibration_generation_seed_start": 100000,
+  "test_generation_seed_start": 200000,
+  "sampling_seed": 20262026,
+  "bootstrap_seed": 20262026,
+  "bootstrap_resamples": 2000,
+  "table6_conditions": [
+    "clean",
+    "jpeg50",
+    "jpeg25",
+    "crop75",
+    "crop50",
+    "rotation75"
+  ]
+}

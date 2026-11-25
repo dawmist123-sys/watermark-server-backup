@@ -1,0 +1,6 @@
+-r requirements-cpu.txt
+Pillow
+torch
+diffusers>=0.30,<1
+transformers
+accelerate
